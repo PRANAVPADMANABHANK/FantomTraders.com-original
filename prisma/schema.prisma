@@ -12,3 +12,11 @@ datasource db {
   provider = "mongodb"
   url      = env("DATABASE_URL")
 }
+
+model User {
+  id             String  @id @default(auto()) @map("_id") @db.ObjectId
+  name           String
+  email          String
+  mobile         Int
+  hashedPassword String? // here ? is reffered to optional field . If a user loged/signup using google/ github no need of password. so that is the meaning of ? 
+}
