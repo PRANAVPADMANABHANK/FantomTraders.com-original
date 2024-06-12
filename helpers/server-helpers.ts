@@ -8,3 +8,4 @@ export const connectToDatabase = async () => {
     throw new Error("Unable to connect to db");
   }
 };
+      
