@@ -8,3 +8,4 @@
   </div>
 
   <h3 align="center">A Modern Next.js Project</h3>
+  <h2 align="center">Trading Journals and other features</h2>
